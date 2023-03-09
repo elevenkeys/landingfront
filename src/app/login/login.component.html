@@ -1,0 +1,39 @@
+<div class="card">
+  <form action="">
+    <p-card>
+      <ng-template pTemplate="header">
+        <h2>Connexion</h2>
+      </ng-template>
+      <div class="content">
+        <input
+          pInputText
+          type="email"
+          autocomplete="email"
+          placeholder="Email"
+          [(ngModel)]="email"
+          name="email"
+        />
+        <input
+          pInputText
+          type="password"
+          autocomplete="current-password"
+          placeholder="Mot de passe"
+          [(ngModel)]="password"
+          name="password"
+        />
+      </div>
+      <ng-template pTemplate="footer">
+        <div class="footer">
+          <button
+            pButton
+            pRipple
+            type="button"
+            label="Se connecter"
+            class="p-button-rounded"
+            (click)="submit()"
+          ></button>
+        </div>
+      </ng-template>
+    </p-card>
+  </form>
+</div>

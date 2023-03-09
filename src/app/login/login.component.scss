@@ -1,0 +1,20 @@
+.card {
+  margin: 16px;
+  max-width: 520px;
+  width: 520px;
+}
+h2 {
+  padding: 16px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input:first-child {
+  margin-bottom: 8px;
+}
+.footer {
+  text-align: end;
+}

@@ -8,6 +8,8 @@ import { PrimeNGConfig } from 'primeng/api';
 })
 export class AppComponent implements OnInit {
   title = 'elevenkeys';
+  year: number = new Date().getFullYear();
+
   constructor(private primengConfig: PrimeNGConfig) {}
 
   ngOnInit() {
